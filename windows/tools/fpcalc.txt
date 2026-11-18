@@ -1,0 +1,7 @@
+fpcalc.exe: Chromaprint's command line fingerprinter, used for song recognition
+with AcoustID (visualradio/songid.py).
+
+Chromaprint (https://acoustid.org/chromaprint, https://github.com/acoustid/chromaprint)
+by Lukas Lalinsky, licence LGPL-2.1-or-later (the fpcalc tool links FFmpeg, also
+LGPL). This is the unmodified Windows x64 release 1.5.1 (chromaprint-fpcalc-1.5.1-windows-x86_64) from the Chromaprint project;
+its source code is available at the addresses above.

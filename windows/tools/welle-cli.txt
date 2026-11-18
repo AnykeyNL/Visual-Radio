@@ -1,0 +1,15 @@
+welle-cli.exe: the DAB+ decoder used by visual_radio.py (--band dab)
+
+welle.io 2.4 (https://www.welle.io, https://github.com/AlbrechtL/welle.io),
+licence GPL-2.0-or-later. Built for Windows x64 (mingw-w64, static) with:
+  Airspy support (libairspy 1.0.10, libusb 1.0.27), FFTW 3.3.10, FAAD2 2.11.1,
+  mpg123 1.32.5, LAME 3.100.
+
+Changed for this project (welle-cli-pcm.diff, next to this file):
+  - /pcm/<service id>: the decoded audio as raw 16-bit PCM frames
+    ("PCM1" + uint32 sample rate + uint32 byte count + stereo samples),
+    so Python needs no MP3 decoder and gets the audio without extra delay.
+  - The web server only listens on 127.0.0.1 (this PC), so Windows does not
+    ask for firewall permission and nobody else on the network can reach it.
+
+Source of the unchanged program: https://github.com/AlbrechtL/welle.io/releases/tag/v2.4

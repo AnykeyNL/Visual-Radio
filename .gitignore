@@ -1,0 +1,16 @@
+# your keys and your own lists: never in git
+config.ini
+stations.json
+stations_dab.json
+stations_simulated.json
+stations_dab_simulated.json
+*_transcripts.txt
+transcripts*.txt
+cache/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

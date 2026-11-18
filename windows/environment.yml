@@ -1,0 +1,23 @@
+# Visual Radio for Windows: the conda environment.
+#   conda env create -f environment.yml
+#   conda activate visualradio
+# Then PyTorch with CUDA (INSTALL.md step 4) and, if you like, the optional parts
+# in requirements.txt (Demucs, pyannote).
+name: visualradio
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - python-sounddevice            # PC speakers
+  - soapysdr                      # the Airspy, through SoapySDR ...
+  - soapysdr-module-airspy        # ... and its Airspy driver (not on pip)
+  - pytest
+  - pip
+  - pip:
+      - faster-whisper>=1.1       # Whisper, speech to text
+      - nvidia-cublas-cu12        # Whisper on the NVIDIA GPU
+      - nvidia-cudnn-cu12==9.*
+      - psutil                    # CPU / RAM for the engine room
+      - nvidia-ml-py              # GPU load for the engine room

@@ -1,0 +1,10 @@
+# Optional parts of Visual Radio, after environment.yml and PyTorch with CUDA:
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
+#   pip install -r requirements.txt
+# (Install PyTorch first: otherwise these pull in a CPU-only PyTorch on Windows.)
+
+# Voice isolation before Whisper (--isolate) and the Voice / Music switch on the page
+demucs>=4.0
+
+# Speaker colours (--speakers); needs a free Hugging Face token, see INSTALL.md
+pyannote.audio
