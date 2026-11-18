@@ -113,11 +113,13 @@ windows/             the Windows version: program, install guide, tools, tests
   INSTALL.md         step by step, from an empty PC
   README.md          every feature and option
 mac/                 the macOS version (planned)
+LICENSE              MIT
 ```
 
 ## Credits and licences
 
-Visual Radio stands on these projects: SoapySDR and the Airspy driver,
+Visual Radio's own code is under the [MIT licence](LICENSE). The bundled tools
+keep their own licences. Visual Radio stands on these projects: SoapySDR and the Airspy driver,
 welle.io (GPL-2.0, `windows/tools/welle-cli.exe`, with the change made for it
 in `welle-cli-pcm.diff`), Chromaprint `fpcalc` (LGPL-2.1, for AcoustID),
 faster-whisper / CTranslate2 and OpenAI Whisper (MIT), Demucs (MIT), pyannote
