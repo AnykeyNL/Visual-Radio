@@ -1,0 +1,114 @@
+{
+ "long": [
+  [
+   "c01",
+   "This is the radio. Not a podcast, not a stream. Live FM, straight out of the air. And you can watch it."
+  ],
+  [
+   "c02",
+   "This is Visual Radio. It shows you what the radio says. Every word, every voice, every song. Free, open source, and running entirely on your own PC."
+  ],
+  [
+   "c03a",
+   "It starts with a software defined radio. This little Airspy Mini doesn't play a station."
+  ],
+  [
+   "c03b",
+   "It samples a whole slice of the radio spectrum, six million times a second. From here on, everything is software."
+  ],
+  [
+   "c04a",
+   "Out of that slice, Visual Radio picks one station. On FM it demodulates the audio, and decodes RDS: the station name, and often the song that's playing."
+  ],
+  [
+   "c04b",
+   "Every station gets a pin on the dial and a card of its own, with its name and what it's playing right now."
+  ],
+  [
+   "c05",
+   "Every fifteen seconds, Google's YAMNet sound classifier listens and decides: is this talking, or music? The whole page follows. Calm captions for talk. A stage for songs."
+  ],
+  [
+   "c06",
+   "Presenters talk over jingles, and singers sing over a band. Demucs pulls the voice out of the mix, so the speech recognizer hears only the voice. And you can listen to it too. Just the voice. Or just the band."
+  ],
+  [
+   "c07a",
+   "Then Whisper, running on the graphics card, writes out every word, with its own timestamp. The playback is delayed, so each word lights up the moment you hear it."
+  ],
+  [
+   "c07b",
+   "When a new voice takes over, it gets its own colour."
+  ],
+  [
+   "c07c",
+   "This is a Dutch station. Set the language to English, and Whisper translates on the fly."
+  ],
+  [
+   "c08",
+   "And when the music starts, Visual Radio finds out which song it is. From the station's own data, or by fingerprinting the sound itself. The album cover sets the colours."
+  ],
+  [
+   "c09",
+   "Every genre gets its own stage, pulsing on the beat. No lyrics? You get a live visual instead."
+  ],
+  [
+   "c10",
+   "All of this runs live, on one PC, faster than the radio itself. No cloud needed."
+  ],
+  [
+   "c11",
+   "Open it on your phone, a tablet, or the TV in the kitchen."
+  ],
+  [
+   "c12",
+   "Visual Radio is free and open source. The link is below. Star it, try it, and see what your radio says."
+  ]
+ ],
+ "promoA": [
+  [
+   "a1",
+   "Radio. But you can see it."
+  ],
+  [
+   "a2",
+   "Live radio. Every word. Every song."
+  ],
+  [
+   "a3",
+   "Visual Radio. Free and open source."
+  ]
+ ],
+ "promoB": [
+  [
+   "b1",
+   "Your radio has moods."
+  ],
+  [
+   "b2",
+   "Visual Radio. Free and open source."
+  ]
+ ],
+ "promoC": [
+  [
+   "c1",
+   "Watch this."
+  ],
+  [
+   "c2",
+   "The band disappears. Just the voice."
+  ],
+  [
+   "c3",
+   "Who's talking? It knows."
+  ],
+  [
+   "c4",
+   "All on your own PC. No cloud."
+  ],
+  [
+   "c5",
+   "Visual Radio. Link in bio."
+  ]
+ ]
+}
